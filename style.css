@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+
+body {
+	background-color: #ff7700;
+	overflow-x: hidden;
+}
+
+.navbar-nav > li {
+  padding-right: 120px;
+  color: #ffffff;
+}
+
+a, a:hover, a:active, a:visited { color: white; }
+
+#NavigationBar {
+	background-color: #aa0000;
+}
+
+.hero {
+    /* Sizing */
+    width: 100vw;
+    height: 100vh;
+    
+    /* Flexbox stuff */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    /* Background styles */
+	background-color: #ffffff;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%23cc0000' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%23aa0000' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%23d6002b' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%23b10022' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%23d9004b' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%23b2003d' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%23d3006c' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%23ac0057' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%23c4008c' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%239e0071' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%23aa00aa' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%23880088' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
+	background-attachment: fixed;
+	background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+#heroText {
+	padding-top: 0px;
+	padding-bottom: 375px;
+}
+
+#titleName {
+	font-size: 85px;
+	color: #cc0001;
+}
+
+#hello {
+	font-size: 25px;
+	color:black;
+	margin:0px 0px -15px 5px;
+}
+
+#subtitle {
+	font-size: 35px;
+	color:black;
+	margin:-15px 0px 5px 5px;
+}
+
+#shortintro {
+	font-size: 20px;
+	color:black;
+	margin:0px 0px 20px 5px;
+}
+
+#TextInformation {
+	background-color: #aa0000;
+}
+
+div.TextInformation h3 {
+	padding-top: 75px;
+	font-size: 35px;
+	color: #ffffff;
+}
+
+div.TextInformation p {
+	padding-bottom: 75px;
+	font-size: 20px;
+	color: #ffffff;
+}
+
+#portrait {
+	padding-top: 35px;
+	padding-bottom: 25px;
+	padding-left: 50px;
+}
+
+#portfolio {
+	padding-top: 75px; 
+	padding-bottom: 500px;
+}
+
+.col-xs-6 {
+	padding-left: 150px;
+	padding-right: 150px;
+}
+
+footer {
+	background-color: #aa0000;
+	display: block;
+}
+
+#FooterText {
+	color: #ffffff;
+	text-align: center;
+}

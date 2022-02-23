@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Portfolio</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="http://example.com/favicon.png"> <!-- Tab icon for browser -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script type="text/javascript" src="../js/jscript.js"></script>
+
+	<script>
+		$(document).ready(function(){
+		/*! Fades in page on load */
+		$('body').css('display', 'none');
+		$('body').fadeIn(3000);
+		});
+	</script>
+
+</head>
+
+<body>
+	<!-- Start of Navbar  -->
+	<div id="NavigationBar">
+	<div class="container">
+		<nav class="navbar navbar-expand-lg justify-content-center">
+			<ul class="navbar-nav">
+				<li class="nav-item active">
+					<a class="nav-link" href="index.html">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="portfolio.html">Portfolio</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="contact.html">Contact</a>
+				</li>
+			</ul>
+		</nav>
+	</div>
+	</div>
+
+	<!-- Start of Hero  -->
+	<section class="hero">
+	    <div id="heroText" class="container">
+		    <p id="hello"> Hello, I am...</p>
+		    <h1 id ="titleName">Nicholas Lovash</h1>
+		    <p id="subtitle">Software Developer</p>
+		    <p id="shortintro">Currently studying for a B.A.S. in Computer Information Systems at 
+		    <br>Youngstown State University, with a minor in Managment Information Systems.</p>
+	    </div>
+	</section>
+
+	<!-- Start of Body -->
+	<div id="TextInformation">
+		<div class="container">
+	    	<div class="row">
+	     		<div class="col-lg-8">
+		        	<div class="TextInformation">
+		        	<h3>About Me</h3>
+		        	<p class="text-break"> I am a software developer that is passoniate about building intuitive software that looks great, 
+				    and works even better! I am currently studying for a B.A.S. in Computer Information Systems at Youngstown State University
+				    with a minor in Management Information Systems. I first started coding as a junior in High School and have been hooked since!</p>
+		        	</div>
+	      		</div>
+	      		<div id="portrait" class="col-lg-4">
+	      			<img src="images/MePlaceholder.jpg" alt="Me" width="300" height="300">
+	      		</div>
+	    	</div>
+		</div>
+	</div>
+
+    <div id="portfolio">
+  		<div class="container">
+    		<div class="row justify-content-between">
+	    		<div class="col-xs-6">
+	    			<h3>Project 1</h3>
+				</div>
+				<div class="col-xs-6">
+					<h3>Project 2</h3>
+				</div>
+    		</div>
+		</div>
+	</div>
+
+	<footer>
+		<p id="FooterText">Author: Nicholas Lovash<br>
+		nicholas.lovash@gmail.com</p>
+	</footer>
+
+</body>
+</html>
